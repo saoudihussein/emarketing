@@ -1,0 +1,20 @@
+.btn-downoad {
+    background: #001e48;
+    color: #ffffff !important;
+    border-width: 0 0 3px 0 !important;
+    border-radius: 0;
+    border-image: linear-gradient(to right, #0140b1, #b60cfe) 1 10% !important;
+    font-size: 17px;
+    min-width: 161px;
+    min-width: 161px;
+    
+}
+.btn-downoad:hover {
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+    background: #001e48;
+}
+
+
+.bd-example>.btn, .bd-example>.btn-group {
+    margin: 0.25rem 0.125rem;
+}

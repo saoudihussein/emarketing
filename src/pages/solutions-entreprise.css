@@ -1,0 +1,163 @@
+.pres-container-style {
+    background-image: url("../images/02_about-us.webp");
+    background-position: center;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.h1-prese-style {
+    color: #fff;
+    font-family: "Montserrat", "Helvetica", "Arial", "sans-serif";
+    font-weight: bold;
+}
+
+.btn-devis:hover {
+    border: 1px solid transparent;
+    text-decoration: none;
+    color: #4868cf;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+}
+
+.card-title-sol {
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Montserrat", "sans-serif";
+    font-weight: bold;
+}
+
+.btn-devis {
+    font-family: "Montserrat", "Helvetica", "Arial", "sans-serif";
+    height: 54px;
+    min-width: 161px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30px;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    background-color: transparent;
+    color: #5472d2;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    transition: all 0.2s ease-in-out;
+    border-radius: 0px;
+}
+
+.card-sol {
+    background-color: transparent !important;
+}
+
+.sol-info {
+    background-color: #001e48 !important;
+}
+
+.header-text {
+    color: #fff;
+    font-size: 16px;
+    font-family: "Open Sans", "Helvetica", "Arial", "sans-serif";
+}
+
+.p-style-form {
+    font-family: "Open Sans", "Helvetica", "Arial", "sans-serif";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0;
+    text-transform: none;
+    color: #9e9e9e;
+}
+
+.link-prese-style {
+    font-family: "Montserrat", "Helvetica", "Arial", "sans-serif";
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+    transition-duration: 0.3s;
+}
+
+.link-prese-style:hover {
+    color: #015cff;
+}
+
+.link-prese-1-style {
+    font-family: "Montserrat", "Helvetica", "Arial", "sans-serif";
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #015cff;
+}
+
+.text-prese-style {
+    font-family: "Montserrat", "Helvetica", "Arial", "sans-serif";
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+    margin-left: 1%;
+}
+
+.name-prese-style {
+    font-family: "Montserrat", "Helvetica", "Arial", "sans-serif";
+    font-size: 17px;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 1%;
+    font-style: italic;
+}
+
+.text-pres {
+    text-align: justify !important;
+}
+
+.text-pres {
+    font-family: "Open Sans", "Helvetica", "Arial", "sans-serif";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0;
+    text-transform: none;
+    color: #9e9e9e;
+}
+
+.certif-form {
+    background-color: #674197;
+}
+
+.certif-form-title {
+    color: #ffffff;
+    font-family: "Open Sans", "Helvetica", "Arial", "sans-serif";
+    font-weight: 500;
+}
+
+.inter-form {
+    background-image: url("../images/patternf1d7.webp ");
+    padding-top: 60px !important;
+    padding-right: 60px !important;
+    padding-bottom: 60px !important;
+    padding-left: 60px !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.certif-form-text {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.link-prese-1-style {
+    color: #015cff;
+    font-family: "Open Sans", "Helvetica", "Arial", "sans-serif";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 0;
+    text-transform: none;
+}
