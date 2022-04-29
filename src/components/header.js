@@ -87,7 +87,7 @@ const HeaderComponent = () => {
                                 <Link className="nav-link fw-bold" aria-current="page" activeClassName="current" to="/presentation/">PRÉSENTATION</Link>
                             </li>
 
-                            <li class="nav-item dropdown d-block d-lg-none">
+                            <li className="nav-item dropdown d-block d-lg-none">
                                 <Link onClick={ourForm} className="nav-link" aria-current="page" to="">
                                     <span className="d-inline">NOS FORMATIONS</span>
                                     {formState ?
@@ -146,7 +146,7 @@ const HeaderComponent = () => {
                                     </li>
                                 </ul>
                             </li>
-                            <li class="nav-item dropdown d-block d-lg-none">
+                            <li className="nav-item dropdown d-block d-lg-none">
                                 <Link onClick={solution} activeClassName="current" className="nav-link" aria-current="page" to="">
                                     <span className="d-inline">SOLUTIONS ENTREPRISES</span>
                                     {solutionState ?

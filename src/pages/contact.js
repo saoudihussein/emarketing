@@ -22,7 +22,7 @@ const ContactPage = () => {
                             <h1 className="text-center h1-prese-style">
                                 Contactez nous !
                             </h1>
-                            <div class="text-center">
+                            <div className="text-center">
 
                                 <Link className="link-prese-style" aria-current="page" to="#">
                                     Page d’accueil
@@ -44,37 +44,37 @@ const ContactPage = () => {
                     <div className="row">
                         <div className="col-lg-7 col-sm-12">
 
-                            <form class="g-3">
+                            <form className="g-3">
                                 <div className="row">
-                                    <div class="col">
-                                        <input type="text" required class="form-control form-style" placeholder="Nom" name="nom" />
+                                    <div className="col">
+                                        <input type="text" required className="form-control form-style" placeholder="Nom" name="nom" />
                                     </div>
                                     <div className="col">
-                                        <input type="text" required class="form-control form-style" placeholder="Prénom" name="prenom" />
+                                        <input type="text" required className="form-control form-style" placeholder="Prénom" name="prenom" />
                                     </div>
                                 </div>
 
                                 <div className="row mt-4">
-                                    <div class="col">
-                                        <input type="email" required class="form-control form-style" placeholder="Email" name="nom" />
+                                    <div className="col">
+                                        <input type="email" required className="form-control form-style" placeholder="Email" name="nom" />
                                     </div>
                                 </div>
 
                                 <div className="row mt-4">
-                                    <div class="col">
-                                        <input type="text" required class="form-control form-style" placeholder="Sujet" name="nom" />
+                                    <div className="col">
+                                        <input type="text" required className="form-control form-style" placeholder="Sujet" name="nom" />
                                     </div>
                                 </div>
 
                                 <div className="row mt-4">
-                                    <div class="col">
-                                        <textarea class="form-control form-style" placeholder="Message" rows="3"></textarea>
+                                    <div className="col">
+                                        <textarea className="form-control form-style" placeholder="Message" rows="3"></textarea>
                                     </div>
                                 </div>
 
                                 <div className="row mt-4">
-                                    <div class="col">
-                                        <button type="submit" class="btn btn-contact">Envoyer</button>
+                                    <div className="col">
+                                        <button type="submit" className="btn btn-contact">Envoyer</button>
                                     </div>
                                 </div>
                             </form>
@@ -87,7 +87,7 @@ const ContactPage = () => {
                                     <HiOutlinePhone className="contact-icon" />
                                 </div>
                                 <div className="col-9">
-                                    <a href="tel:+216 98 72 77 14" class="phone-number-contact">+216 98 72 77 14</a>
+                                    <a href="tel:+216 98 72 77 14" className="phone-number-contact">+216 98 72 77 14</a>
                                 </div>
                             </div>
                             <div className="row mt-3">
@@ -95,7 +95,7 @@ const ContactPage = () => {
                                     <HiOutlineMail className="contact-icon" />
                                 </div>
                                 <div className="col-9">
-                                    <a href="mailto:contact@emarketing.tn" class="phone-number-contact">contact@emarketing.tn</a>
+                                    <a href="mailto:contact@emarketing.tn" className="phone-number-contact">contact@emarketing.tn</a>
                                 </div>
                             </div>
 
@@ -104,7 +104,7 @@ const ContactPage = () => {
                                     <HiOutlineClock className="contact-icon" />
                                 </div>
                                 <div className="col-9">
-                                    <span class="phone-number-contact">Lun – Sam. 08:00h – 19:00h</span>
+                                    <span className="phone-number-contact">Lun – Sam. 08:00h – 19:00h</span>
                                 </div>
                             </div>
                         </div>

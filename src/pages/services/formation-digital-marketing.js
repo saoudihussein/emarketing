@@ -29,7 +29,7 @@ const PresentationPage = () => {
                             <h1 className="text-center h1-prese-style">
                                 Formation Digital Marketing
                             </h1>
-                            <div class="text-center">
+                            <div className="text-center">
 
                                 <Link className="link-prese-style" aria-current="page" to="#">
                                     Page d’accueil
@@ -80,8 +80,8 @@ const PresentationPage = () => {
                         </div>
 
                         <div className="col-lg-4 mt-3 col-sm-12">
-                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Femarketing.tn&tabs&width=340&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=439987349361310"
-                                style={{ border: "none", overflow: "hidden", width: "auto%" }} scrolling="no" frameBorder="0" allowFullScreen="true"
+                            <iframe title="facebook" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Femarketing.tn&tabs&width=340&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=439987349361310"
+                                style={{ border: "none", overflow: "hidden", width: "auto%" }} scrolling="no" frameBorder="0"
                                 allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                         </div>
                     </div>
@@ -225,13 +225,13 @@ const PresentationPage = () => {
 
 
 
-                <ButtonComponent />
+                <ButtonComponent type="Formation En Digital Marketing" />
 
                 <div className="container-fluid supp-info-form mb-5 pb-2">
                     <div className="pb-5">
                         <h3 className=" h3-supp-info text-center pt-5">Pour toute information supplémentaire </h3>
                         <div className="text-center pt-3">
-                            <Link class="btn btn-inscri text-center" to="#" role="button">Contactez nous</Link>
+                            <Link className="btn btn-inscri text-center" to="#" role="button">Contactez nous</Link>
                         </div>
                     </div>
 
@@ -252,18 +252,18 @@ const PresentationPage = () => {
 
                     <div className="row">
                         <div className="col-sm-12 col-md-6 col-lg-4 mt-lg-1">
-                            <div class="card h-100">
+                            <div className="card h-100">
                                 <Link to="/services/formation-digital-marketing/">
-                                    <img src={digitalMarketing} class="img-fluid mx-auto d-block" alt="Formation Digital Marketing" />
+                                    <img src={digitalMarketing} className="img-fluid mx-auto d-block" alt="Formation Digital Marketing" />
                                 </Link>
 
-                                <div class="card-body">
+                                <div className="card-body">
                                     <Link className="text-decoration-none" to="/services/formation-digital-marketing/">
-                                        <h5 class="card-title">
+                                        <h5 className="card-title">
                                             Formation Digital Marketing
                                         </h5>
                                     </Link>
-                                    <p class="card-text">
+                                    <p className="card-text">
                                         Découvrez nos formations en « Digital marketing » pour vous perfectionner sur les outils, les techniques, les usages du marketing et de la communication à l’heure du digital : Stratégie digitale 360, Webanalytics, Social media, AdSense, E-réputation, Le marketing relationnel (e-CRM) , Le déploiement multicanal et la cohérence de Digital brand content…
                                     </p>
                                     <Link className="card-link text-decoration-none" to="/services/formation-digital-marketing/">
@@ -273,18 +273,18 @@ const PresentationPage = () => {
                             </div>
                         </div>
                         <div className="col-sm-12 col-md-6 col-lg-4 mt-lg-1">
-                            <div class="card h-100">
+                            <div className="card h-100">
                                 <Link to="/services/formation-google-for-business/">
-                                    <img src={formForGoogleBusiness} class="img-fluid mx-auto d-block" alt="Formation Google for Business" />
+                                    <img src={formForGoogleBusiness} className="img-fluid mx-auto d-block" alt="Formation Google for Business" />
                                 </Link>
-                                <div class="card-body">
+                                <div className="card-body">
                                     <Link className="text-decoration-none" to="/services/formation-google-for-business/">
-                                        <h5 class="card-title">
+                                        <h5 className="card-title">
                                             Formation Google for Business
                                         </h5>
                                     </Link>
 
-                                    <p class="card-text">
+                                    <p className="card-text">
                                         Dans cette formation Google Business Suite, vous apprenez à mettre en avant toutes les informations relatives à votre entreprise dans les résultats de recherche Google. Vos clients peuvent ainsi vous trouver plus facilement, À l’issue de cette formation , vous connaissez les pratiques pour donner un max de visibilité sur Internet à votre entreprise via Google Business.
                                     </p>
                                     <Link className="card-link text-decoration-none" to="/services/formation-google-for-business/">
@@ -295,17 +295,17 @@ const PresentationPage = () => {
                         </div>
 
                         <div className="col-sm-12 col-md-6 col-lg-4 mt-md-5 mt-sm-5 mt-lg-1">
-                            <div class="card h-100">
+                            <div className="card h-100">
                                 <Link to="/services/formation-community-manager/">
-                                    <img src={communityManager} class="img-fluid mx-auto d-block" alt="Formation Community Manager" />
+                                    <img src={communityManager} className="img-fluid mx-auto d-block" alt="Formation Community Manager" />
                                 </Link>
-                                <div class="card-body">
+                                <div className="card-body">
                                     <Link className="text-decoration-none" to="/services/formation-community-manager/">
-                                        <h5 class="card-title">
+                                        <h5 className="card-title">
                                             Formation Community Manager
                                         </h5>
                                     </Link>
-                                    <p class="card-text">
+                                    <p className="card-text">
                                         Avec cette formation vous allez découvrir le métier de Community Manager, ou comment gérer une présence et une e-réputation sur les réseaux sociaux à l’aide de méthodes concrètes et efficaces. Vous allez explorer des outils pour être à l’écoute sur les réseaux sociaux, et vous verrez comment créer et animer une communauté digitale.
                                     </p>
                                     <Link className="card-link text-decoration-none" to="/services/formation-community-manager/">
@@ -316,54 +316,54 @@ const PresentationPage = () => {
                         </div>
 
                         <div className="col-sm-12 col-md-6 col-lg-4 mt-5">
-                            <div class="card h-100">
+                            <div className="card h-100">
                                 <Link to="/services/formation-web-design/">
-                                    <img src={formationUIUX} class="img-fluid mx-auto d-block" alt="Formation Web Design UI/UX" />
+                                    <img src={formationUIUX} className="img-fluid mx-auto d-block" alt="Formation Web Design UI/UX" />
                                 </Link>
-                                <div class="card-body">
+                                <div className="card-body">
                                     <Link className="text-decoration-none" to="/services/formation-web-design/">
-                                        <h5 class="card-title">Formation Web Design UI/UX</h5>
+                                        <h5 className="card-title">Formation Web Design UI/UX</h5>
                                     </Link>
-                                    <p class="card-text">
+                                    <p className="card-text">
                                         Avec nos formations du Web Design, vous êtes donc à même de comprendre le métier de Webdesigner ainsi que ses nombreuses applications. Depuis le prototypage jusqu'à l'intégration de vos éléments graphiques en passant la programmation ou encore l'expérience utilisateur (UX/UI), ne ratez plus aucune étape de la création de vos sites Web !
                                     </p>
-                                    <Link class="card-link text-decoration-none" aria-current="page" to="/services/formation-web-design/">Lire la suite</Link>
+                                    <Link className="card-link text-decoration-none" aria-current="page" to="/services/formation-web-design/">Lire la suite</Link>
                                 </div>
                             </div>
                         </div>
 
                         <div className="col-sm-12 col-md-6 col-lg-4 mt-5">
-                            <div class="card h-100">
+                            <div className="card h-100">
                                 <Link to="/services/formation-web-ecommerce/">
-                                    <img src={formationWebEcomerce} class="img-fluid mx-auto d-block" alt="Formation Web & Ecommerce" />
+                                    <img src={formationWebEcomerce} className="img-fluid mx-auto d-block" alt="Formation Web & Ecommerce" />
                                 </Link>
-                                <div class="card-body">
+                                <div className="card-body">
                                     <Link className="text-decoration-none" to="/services/formation-web-ecommerce/">
-                                        <h5 class="card-title">Formation Web & Ecommerce</h5>
+                                        <h5 className="card-title">Formation Web & Ecommerce</h5>
                                     </Link>
-                                    <p class="card-text">
+                                    <p className="card-text">
 
                                         Formez-vous et formez vos équipes Webmarketing en developpement web et à l’utilisation des CMS. Que vous travaillez sur HTML , Framework PHP ,WordPress, Prestashop, ou Magento, nos formateurs vous accompagnent dans la prise en main et l’optimisation de votre site WEB. gagner en efficacité, en investissement et en qualité.
                                     </p>
-                                    <Link class="card-link text-decoration-none" aria-current="page" to="/services/formation-web-ecommerce/">Lire la suite</Link>
+                                    <Link className="card-link text-decoration-none" aria-current="page" to="/services/formation-web-ecommerce/">Lire la suite</Link>
                                 </div>
                             </div>
                         </div>
 
                         <div className="col-sm-12 col-md-6 col-lg-4 mt-5">
-                            <div class="card h-100">
+                            <div className="card h-100">
                                 <Link to="/services/formation-media-buying/">
-                                    <img src={formationMediaBuying} class="img-fluid mx-auto d-block" alt="Formation Media Buying" />
+                                    <img src={formationMediaBuying} className="img-fluid mx-auto d-block" alt="Formation Media Buying" />
                                 </Link>
-                                <div class="card-body">
+                                <div className="card-body">
                                     <Link className="text-decoration-none" to="/services/formation-media-buying/">
-                                        <h5 class="card-title">Formation Media Buying</h5>
+                                        <h5 className="card-title">Formation Media Buying</h5>
                                     </Link>
-                                    <p class="card-text">
+                                    <p className="card-text">
                                         Dans cette formation, nous enseignons un modèle inspiré de
                                         Data-driven marketing dans la gestion et l’optimisation des achats médias. Nous appliquons une approche systématique d'exploitation des Consumer behavior Datas pour favoriser une prise de décision précise en temps réel, afin d'optimiser L'ROI de vos campagnes ADS
                                     </p>
-                                    <Link class="card-link text-decoration-none" aria-current="page" to="/services/formation-media-buying/">Lire la suite</Link>
+                                    <Link className="card-link text-decoration-none" aria-current="page" to="/services/formation-media-buying/">Lire la suite</Link>
                                 </div>
                             </div>
                         </div>
