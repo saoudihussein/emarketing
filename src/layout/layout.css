@@ -5,6 +5,11 @@
     background-size: cover !important;
 }
 
+img {
+    width: auto;
+    height: auto;
+}
+
 .text-1 {
     color: #ffffff;
     font-family: "Lato";
@@ -18,7 +23,7 @@
 .text-3 {
     font-size: 24px;
     color: #ffffff;
-    font-family:  "Helvetica", "Arial", "sans-serif";
+    font-family: "Helvetica", "Arial", "sans-serif";
     font-weight: bold;
     font-style: normal;
     letter-spacing: 0;
@@ -27,7 +32,7 @@
 
 .span-1 {
     color: #ffffff;
-    font-family:  "Helvetica", "Arial", "sans-serif";
+    font-family: "Helvetica", "Arial", "sans-serif";
     font-weight: 400;
     font-style: normal;
     font-size: 17px;
@@ -68,14 +73,14 @@
 }
 
 .iconbox-title {
-    font-family:  "sans-serif";
+    font-family: "sans-serif";
     font-size: 18px;
     font-weight: 700;
     color: #011735;
 }
 
 .iconbox-content {
-    font-family:  "Helvetica", "Arial", "sans-serif";
+    font-family: "Helvetica", "Arial", "sans-serif";
     font-weight: 400;
     font-style: normal;
     font-size: 14px;
@@ -97,7 +102,7 @@
 }
 
 .card-text {
-    font-family:  "sans-serif" !important;
+    font-family: "sans-serif" !important;
     font-size: 18px !important;
     margin-bottom: 30px !important;
     text-align: justify !important;
@@ -109,10 +114,8 @@
     border-style: none;
 }
 
-
-
 .card-link {
-    font-family:  "Helvetica", "Arial", "sans-serif" !important;
+    font-family: "Helvetica", "Arial", "sans-serif" !important;
     font-weight: 700 !important;
     font-size: 80% !important;
     color: #011735 !important;
@@ -134,14 +137,14 @@
 .h3-supp-info {
     font-size: 40px !important;
     color: #ffffff;
-    font-family:  "Helvetica", "Arial", "sans-serif";
+    font-family: "Helvetica", "Arial", "sans-serif";
     font-weight: bold;
     font-style: normal;
     letter-spacing: 0;
 }
 
 .blog-text {
-    font-family:  "Helvetica", "Arial", "sans-serif";
+    font-family: "Helvetica", "Arial", "sans-serif";
     font-weight: bold;
     font-style: normal;
     letter-spacing: 0;
@@ -186,7 +189,7 @@
     border-right: 1px solid #ebebeb;
     min-height: 95px;
     padding-top: 10px;
-    font-family:  sans-serif;
+    font-family: sans-serif;
     font-weight: bold;
 }
 
