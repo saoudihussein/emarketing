@@ -17,7 +17,7 @@ const FooterComponent = () => {
                         <p className="mb-2 text-start"><strong>Fax  :</strong> +216 71 31 73 75 </p>
                         <p className="mb-2 text-start"><strong>Email  :</strong> <a href="email:contact@emarketing.tn" className="phone-number">contact@emarketing.tn</a> </p>
                         <p>
-                            <img loading={"lazy"} className="img-fluid" loading={"lazy"} src={footerLogo} alt="emarketing.tn" width="150" height="auto" />
+                            <img loading={"lazy"} className="img-fluid" src={footerLogo} alt="emarketing.tn" style={{ height: "150px", width: "40px" }} />
                         </p>
                     </div>
 
@@ -37,7 +37,8 @@ const FooterComponent = () => {
                             <li>
                                 <iframe title="facebook" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Femarketing.tn&tabs&width=340&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=439987349361310"
                                     style={{ border: "none", overflow: "hidden", width: "380%" }} scrolling="no" frameBorder="0"
-                                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
+                                </iframe>
                             </li>
 
                         </ul>
@@ -51,7 +52,7 @@ const FooterComponent = () => {
                         <ul className="footer_ul2_amrc">
                             <li>
                                 <a href="https://www.google.com/maps/search/emarketing/@36.8563289,10.1544778,19.75z" target="_blank">
-                                    <img loading={"lazy"} src={emarketingPlace} loading={"lazy"} style={{ border: "0", width: "98%", height: "133px" }} class="img-fluid googleMapsIframe" alt="emarketing"></img>
+                                    <img loading={"lazy"} src={emarketingPlace} style={{ border: "0", width: "98%", height: "133px" }} class="img-fluid googleMapsIframe" alt="emarketing"></img>
                                 </a>
                             </li>
                         </ul>

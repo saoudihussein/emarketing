@@ -66,7 +66,6 @@ const HeaderComponent = () => {
                 <link rel="stylesheet" id="font-awesome-css" href="src/plugins/visual-composer/assets/lib/bower/font-awesome/css/font-awesome.min.css" type="text/css" media="all" />
                 <link rel="stylesheet" id="js_composer_front-css" href="src/uploads/js_composer/js_composer_front_custom.css" type="text/css" media="all" />
                 <link rel="stylesheet" id="seocode-theme-style-css" href="src/themes/seocode/seocode/style.css" type="text/css" media="all" />
-                <link rel="stylesheet" id="kirki_google_fonts-css" href="https://fonts.googleapis.com/css?family=Open+Sans%3Aregular%7CMontserrat%3Aregular%7CDosis%3A700&amp;subset=latin-ext" type="text/css" media="all" />
                 <link rel="stylesheet" id="kirki-styles-seocode-css" href="src/plugins/kirki/assets/css/kirki-styles.css" type="text/css" media="all"></link>
             </Helmet>
 
@@ -204,7 +203,7 @@ const HeaderComponent = () => {
             </nav >}
 
             {showStateRocket && <div className="fixed-bottom ">
-                <img loading={"lazy"} src={rocket} onClick={scrollToTop} className="float-end btn scroll-to-top" alt="Scroll to top" />
+                <img style={{ height: "98px", width: "75px" }} loading={"lazy"} src={rocket} onClick={scrollToTop} className="float-end btn scroll-to-top" alt="Scroll to top" />
             </div>}
 
         </>

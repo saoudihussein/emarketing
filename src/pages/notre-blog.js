@@ -48,7 +48,7 @@ export const NewBlogs = () => {
                 return (
                     <div className="col-sm-12 col-md-6 col-lg-4 mt-lg-1">
                         <div className="card h-100">
-                            <img loading={"lazy"} style={{ height: "300px" }} src={blog.pic} className="img-fluid" alt="Image service" />
+                            <img loading={"lazy"} style={{ width: "416px", height: "300px" }} src={blog.pic} className="img-fluid" alt="Image service" />
                             <div className="card-body">
 
                                 <div className="row">
@@ -99,7 +99,7 @@ export const NewBlogsFooter = () => {
                     <li>
                         <div className="row">
                             <div className="col-lg-3 col-md-3 col-sm-12">
-                                <img loading={"lazy"} className="img-fluid" width="73" height="73" src={blog.pic} alt="emarketing.tn" />
+                                <img style={{ height: "50px", width: "50px" }} loading={"lazy"} className="img-fluid" width="73" height="73" src={blog.pic} alt="emarketing.tn" />
                             </div>
                             <div className="col-9 col-md-9 col-sm-12">
                                 <p>{blog["blog-title"]}</p>
