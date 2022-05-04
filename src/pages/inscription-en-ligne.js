@@ -78,7 +78,7 @@ const InscriptionPage = ({ location }) => {
                                     <div className="col">
                                         <select type="text" required className="form-control form-style" >
                                             {(() => {
-                                                if (typeof location.state !== `undefined`) {
+                                                if (typeof location.state.type !== `undefined`) {
                                                     switch (location.state.type) {
                                                         case 'Formation En Digital Marketing':
                                                             return (
