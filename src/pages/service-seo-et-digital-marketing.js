@@ -93,7 +93,7 @@ const SeoDigitalMarketingPage = () => {
                             <div className="row pt-5">
                                 <div className="col">
                                     <div className="card card-sol">
-                                        <img src={icon1} className="img-fluid mx-auto d-block" alt="Formation Google for Business" />
+                                        <img loading={"lazy"} src={icon1} className="img-fluid mx-auto d-block" alt="Formation Google for Business" />
                                         <div className="card-body">
                                             <h5 className="card-title-sol pb-3 pt-3">
                                                 Plateforme Emailing
@@ -107,7 +107,7 @@ const SeoDigitalMarketingPage = () => {
 
                                 <div className="col">
                                     <div className="card card-sol">
-                                        <img src={icon2} className="img-fluid mx-auto d-block" alt="Formation Google for Business" />
+                                        <img loading={"lazy"} src={icon2} className="img-fluid mx-auto d-block" alt="Formation Google for Business" />
                                         <div className="card-body">
                                             <h5 className="card-title-sol pb-3 pt-3">
                                                 Site Web & E-Commerce
@@ -121,7 +121,7 @@ const SeoDigitalMarketingPage = () => {
 
                                 <div className="col">
                                     <div className="card card-sol">
-                                        <img src={icon3} className="img-fluid mx-auto d-block" alt="Formation Google for Business" />
+                                        <img loading={"lazy"} src={icon3} className="img-fluid mx-auto d-block" alt="Formation Google for Business" />
                                         <div className="card-body">
                                             <h5 className="card-title-sol pb-3 pt-3">
                                                 Accompagnement Webmarketing

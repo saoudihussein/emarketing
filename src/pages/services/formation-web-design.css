@@ -7,12 +7,12 @@
 
 .h1-prese-style {
     color: #fff;
-    font-family: "Montserrat", "Helvetica", "Arial", "sans-serif";
+    font-family:  "Helvetica", "Arial", "sans-serif";
     font-weight: bold;
 }
 
 .digit-h3-style {
-    font-family: "Montserrat", "Helvetica", "Arial", "sans-serif";
+    font-family:  "Helvetica", "Arial", "sans-serif";
     font-weight: bold;
     font-style: normal;
     letter-spacing: 0;
@@ -29,7 +29,7 @@
 }
 
 .p-style-form {
-    font-family: "Open Sans", "Helvetica", "Arial", "sans-serif";
+    font-family:  "Helvetica", "Arial", "sans-serif";
     font-weight: 400;
     font-style: normal;
     font-size: 16px;
@@ -40,7 +40,7 @@
 }
 
 .link-prese-style {
-    font-family: "Montserrat", "Helvetica", "Arial", "sans-serif";
+    font-family:  "Helvetica", "Arial", "sans-serif";
     font-size: 17px;
     text-decoration: none;
     font-weight: 600;
@@ -53,7 +53,7 @@
 }
 
 .link-prese-1-style {
-    font-family: "Montserrat", "Helvetica", "Arial", "sans-serif";
+    font-family:  "Helvetica", "Arial", "sans-serif";
     font-size: 17px;
     text-decoration: none;
     font-weight: 600;
@@ -61,7 +61,7 @@
 }
 
 .text-prese-style {
-    font-family: "Montserrat", "Helvetica", "Arial", "sans-serif";
+    font-family:  "Helvetica", "Arial", "sans-serif";
     font-size: 17px;
     text-decoration: none;
     font-weight: 500;
@@ -70,7 +70,7 @@
 }
 
 .name-prese-style {
-    font-family: "Montserrat", "Helvetica", "Arial", "sans-serif";
+    font-family:  "Helvetica", "Arial", "sans-serif";
     font-size: 17px;
     text-decoration: none;
     color: #fff;
@@ -83,7 +83,7 @@
 }
 
 .text-pres {
-    font-family: "Open Sans", "Helvetica", "Arial", "sans-serif";
+    font-family:  "Helvetica", "Arial", "sans-serif";
     font-weight: 400;
     font-style: normal;
     font-size: 18px;
@@ -98,7 +98,7 @@
 
 .certif-form-title {
     color: #ffffff;
-    font-family: "Open Sans", "Helvetica", "Arial", "sans-serif";
+    font-family:  "Helvetica", "Arial", "sans-serif";
     font-weight: 500;
 }
 
@@ -120,7 +120,7 @@
 
 .link-prese-1-style {
     color: #015cff;
-    font-family: "Open Sans", "Helvetica", "Arial", "sans-serif";
+    font-family:  "Helvetica", "Arial", "sans-serif";
     font-weight: 400;
     font-style: normal;
     font-size: 18px;

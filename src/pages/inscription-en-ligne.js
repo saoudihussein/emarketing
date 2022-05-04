@@ -71,7 +71,6 @@ const InscriptionPage = ({ location }) => {
                                         <input type="text" required className="form-control form-style" placeholder="Addresse" name="adresse" />
                                     </div>
                                 </div>
-
                                 <div className="row mt-4">
                                     <div className="col">
                                         <input type="text" required className="form-control form-style" placeholder="Tél" name="tel" />
@@ -79,140 +78,143 @@ const InscriptionPage = ({ location }) => {
                                     <div className="col">
                                         <select type="text" required className="form-control form-style" >
                                             {(() => {
-                                                switch (location.state.type) {
-                                                    case 'Formation En Digital Marketing':
-                                                        return (
-                                                            <>
-                                                                <option value="Formation En Digital Marketing">Formation En Digital Marketing</option>
-                                                                <option value="Formation Community Manager">Formation Community Manager</option>
-                                                                <option value="Formation Google for Business">Formation Google for Business</option>
-                                                                <option value="Formation Web Design UI/UX">Formation Web Design UI/UX</option>
-                                                                <option value="Formation Web & Ecommerce">Formation Web & Ecommerce</option>
-                                                                <option value="Formation Media Buying">Formation Media Buying</option>
-                                                                <option value="Plateforme Emailing & SMTP">Plateforme Emailing & SMTP</option>
-                                                                <option value="Service SEO & Digital Marketing">Service SEO & Digital Marketing</option>
-                                                                <option value="Création Web & E-Commerce">Création Web & E-Commerce</option>
-                                                            </>
-                                                        )
+                                                if (typeof location.state !== `undefined`) {
+                                                    switch (location.state.type) {
+                                                        case 'Formation En Digital Marketing':
+                                                            return (
+                                                                <>
+                                                                    <option value="Formation En Digital Marketing">Formation En Digital Marketing</option>
+                                                                    <option value="Formation Community Manager">Formation Community Manager</option>
+                                                                    <option value="Formation Google for Business">Formation Google for Business</option>
+                                                                    <option value="Formation Web Design UI/UX">Formation Web Design UI/UX</option>
+                                                                    <option value="Formation Web & Ecommerce">Formation Web & Ecommerce</option>
+                                                                    <option value="Formation Media Buying">Formation Media Buying</option>
+                                                                    <option value="Plateforme Emailing & SMTP">Plateforme Emailing & SMTP</option>
+                                                                    <option value="Service SEO & Digital Marketing">Service SEO & Digital Marketing</option>
+                                                                    <option value="Création Web & E-Commerce">Création Web & E-Commerce</option>
+                                                                </>
+                                                            )
 
-                                                    case 'Formation Google for Business':
-                                                        return (
-                                                            <>
-                                                                <option value="Formation Google for Business">Formation Google for Business</option>
-                                                                <option value="Formation En Digital Marketing">Formation En Digital Marketing</option>
-                                                                <option value="Formation Community Manager">Formation Community Manager</option>
-                                                                <option value="Formation Web Design UI/UX">Formation Web Design UI/UX</option>
-                                                                <option value="Formation Web & Ecommerce">Formation Web & Ecommerce</option>
-                                                                <option value="Formation Media Buying">Formation Media Buying</option>
-                                                                <option value="Plateforme Emailing & SMTP">Plateforme Emailing & SMTP</option>
-                                                                <option value="Service SEO & Digital Marketing">Service SEO & Digital Marketing</option>
-                                                                <option value="Création Web & E-Commerce">Création Web & E-Commerce</option>
-                                                            </>
-                                                        )
-                                                    case 'Formation Web Design UI/UX':
+                                                        case 'Formation Google for Business':
+                                                            return (
+                                                                <>
+                                                                    <option value="Formation Google for Business">Formation Google for Business</option>
+                                                                    <option value="Formation En Digital Marketing">Formation En Digital Marketing</option>
+                                                                    <option value="Formation Community Manager">Formation Community Manager</option>
+                                                                    <option value="Formation Web Design UI/UX">Formation Web Design UI/UX</option>
+                                                                    <option value="Formation Web & Ecommerce">Formation Web & Ecommerce</option>
+                                                                    <option value="Formation Media Buying">Formation Media Buying</option>
+                                                                    <option value="Plateforme Emailing & SMTP">Plateforme Emailing & SMTP</option>
+                                                                    <option value="Service SEO & Digital Marketing">Service SEO & Digital Marketing</option>
+                                                                    <option value="Création Web & E-Commerce">Création Web & E-Commerce</option>
+                                                                </>
+                                                            )
+                                                        case 'Formation Web Design UI/UX':
 
-                                                        return (
-                                                            <>
-                                                                <option value="Formation Web Design UI/UX">Formation Web Design UI/UX</option>
-                                                                <option value="Formation Google for Business">Formation Google for Business</option>
-                                                                <option value="Formation En Digital Marketing">Formation En Digital Marketing</option>
-                                                                <option value="Formation Community Manager">Formation Community Manager</option>
-                                                                <option value="Formation Web & Ecommerce">Formation Web & Ecommerce</option>
-                                                                <option value="Formation Media Buying">Formation Media Buying</option>
-                                                                <option value="Plateforme Emailing & SMTP">Plateforme Emailing & SMTP</option>
-                                                                <option value="Service SEO & Digital Marketing">Service SEO & Digital Marketing</option>
-                                                                <option value="Création Web & E-Commerce">Création Web & E-Commerce</option>
-                                                            </>
-                                                        )
-                                                    case 'Formation Web & Ecommerce':
-                                                        return (
-                                                            <>
-                                                                <option value="Formation Web & Ecommerce">Formation Web & Ecommerce</option>
-                                                                <option value="Formation Google for Business">Formation Google for Business</option>
-                                                                <option value="Formation En Digital Marketing">Formation En Digital Marketing</option>
-                                                                <option value="Formation Community Manager">Formation Community Manager</option>
-                                                                <option value="Formation Web Design UI/UX">Formation Web Design UI/UX</option>
-                                                                <option value="Formation Media Buying">Formation Media Buying</option>
-                                                                <option value="Plateforme Emailing & SMTP">Plateforme Emailing & SMTP</option>
-                                                                <option value="Service SEO & Digital Marketing">Service SEO & Digital Marketing</option>
-                                                                <option value="Création Web & E-Commerce">Création Web & E-Commerce</option>
-                                                            </>
-                                                        )
+                                                            return (
+                                                                <>
+                                                                    <option value="Formation Web Design UI/UX">Formation Web Design UI/UX</option>
+                                                                    <option value="Formation Google for Business">Formation Google for Business</option>
+                                                                    <option value="Formation En Digital Marketing">Formation En Digital Marketing</option>
+                                                                    <option value="Formation Community Manager">Formation Community Manager</option>
+                                                                    <option value="Formation Web & Ecommerce">Formation Web & Ecommerce</option>
+                                                                    <option value="Formation Media Buying">Formation Media Buying</option>
+                                                                    <option value="Plateforme Emailing & SMTP">Plateforme Emailing & SMTP</option>
+                                                                    <option value="Service SEO & Digital Marketing">Service SEO & Digital Marketing</option>
+                                                                    <option value="Création Web & E-Commerce">Création Web & E-Commerce</option>
+                                                                </>
+                                                            )
+                                                        case 'Formation Web & Ecommerce':
+                                                            return (
+                                                                <>
+                                                                    <option value="Formation Web & Ecommerce">Formation Web & Ecommerce</option>
+                                                                    <option value="Formation Google for Business">Formation Google for Business</option>
+                                                                    <option value="Formation En Digital Marketing">Formation En Digital Marketing</option>
+                                                                    <option value="Formation Community Manager">Formation Community Manager</option>
+                                                                    <option value="Formation Web Design UI/UX">Formation Web Design UI/UX</option>
+                                                                    <option value="Formation Media Buying">Formation Media Buying</option>
+                                                                    <option value="Plateforme Emailing & SMTP">Plateforme Emailing & SMTP</option>
+                                                                    <option value="Service SEO & Digital Marketing">Service SEO & Digital Marketing</option>
+                                                                    <option value="Création Web & E-Commerce">Création Web & E-Commerce</option>
+                                                                </>
+                                                            )
 
-                                                    case 'Formation Community Manager':
-                                                        return (
-                                                            <>
-                                                                <option value="Formation Community Manager">Formation Community Manager</option>
-                                                                <option value="Formation Web & Ecommerce">Formation Web & Ecommerce</option>
-                                                                <option value="Formation Google for Business">Formation Google for Business</option>
-                                                                <option value="Formation En Digital Marketing">Formation En Digital Marketing</option>
-                                                                <option value="Formation Web Design UI/UX">Formation Web Design UI/UX</option>
-                                                                <option value="Formation Media Buying">Formation Media Buying</option>
-                                                                <option value="Plateforme Emailing & SMTP">Plateforme Emailing & SMTP</option>
-                                                                <option value="Service SEO & Digital Marketing">Service SEO & Digital Marketing</option>
-                                                                <option value="Création Web & E-Commerce">Création Web & E-Commerce</option>
-                                                            </>
-                                                        )
-                                                    case 'Formation Media Buying':
-                                                        return (
-                                                            <>
-                                                                <option value="Formation Media Buying">Formation Media Buying</option>
-                                                                <option value="Formation Google for Business">Formation Google for Business</option>
-                                                                <option value="Formation En Digital Marketing">Formation En Digital Marketing</option>
-                                                                <option value="Formation Community Manager">Formation Community Manager</option>
-                                                                <option value="Formation Web Design UI/UX">Formation Web Design UI/UX</option>
-                                                                <option value="Formation Web & Ecommerce">Formation Web & Ecommerce</option>
-                                                                <option value="Plateforme Emailing & SMTP">Plateforme Emailing & SMTP</option>
-                                                                <option value="Service SEO & Digital Marketing">Service SEO & Digital Marketing</option>
-                                                                <option value="Création Web & E-Commerce">Création Web & E-Commerce</option>
-                                                            </>
-                                                        )
-                                                    case 'Plateforme Emailing & SMTP':
-                                                        return (
-                                                            <>
-                                                                <option value="Plateforme Emailing & SMTP">Plateforme Emailing & SMTP</option>
-                                                                <option value="Formation Google for Business">Formation Google for Business</option>
-                                                                <option value="Formation En Digital Marketing">Formation En Digital Marketing</option>
-                                                                <option value="Formation Community Manager">Formation Community Manager</option>
-                                                                <option value="Formation Web Design UI/UX">Formation Web Design UI/UX</option>
-                                                                <option value="Formation Web & Ecommerce">Formation Web & Ecommerce</option>
-                                                                <option value="Formation Media Buying">Formation Media Buying</option>
-                                                                <option value="Service SEO & Digital Marketing">Service SEO & Digital Marketing</option>
-                                                                <option value="Création Web & E-Commerce">Création Web & E-Commerce</option>
-                                                            </>
-                                                        )
-                                                    case 'Service SEO & Digital Marketing':
-                                                        return (
-                                                            <>
-                                                                <option value="Service SEO & Digital Marketing">Service SEO & Digital Marketing</option>
-                                                                <option value="Formation Google for Business">Formation Google for Business</option>
-                                                                <option value="Formation En Digital Marketing">Formation En Digital Marketing</option>
-                                                                <option value="Formation Community Manager">Formation Community Manager</option>
-                                                                <option value="Formation Web Design UI/UX">Formation Web Design UI/UX</option>
-                                                                <option value="Formation Web & Ecommerce">Formation Web & Ecommerce</option>
-                                                                <option value="Formation Media Buying">Formation Media Buying</option>
-                                                                <option value="Plateforme Emailing & SMTP">Plateforme Emailing & SMTP</option>
-                                                                <option value="Création Web & E-Commerce">Création Web & E-Commerce</option>
-                                                            </>
-                                                        )
+                                                        case 'Formation Community Manager':
+                                                            return (
+                                                                <>
+                                                                    <option value="Formation Community Manager">Formation Community Manager</option>
+                                                                    <option value="Formation Web & Ecommerce">Formation Web & Ecommerce</option>
+                                                                    <option value="Formation Google for Business">Formation Google for Business</option>
+                                                                    <option value="Formation En Digital Marketing">Formation En Digital Marketing</option>
+                                                                    <option value="Formation Web Design UI/UX">Formation Web Design UI/UX</option>
+                                                                    <option value="Formation Media Buying">Formation Media Buying</option>
+                                                                    <option value="Plateforme Emailing & SMTP">Plateforme Emailing & SMTP</option>
+                                                                    <option value="Service SEO & Digital Marketing">Service SEO & Digital Marketing</option>
+                                                                    <option value="Création Web & E-Commerce">Création Web & E-Commerce</option>
+                                                                </>
+                                                            )
+                                                        case 'Formation Media Buying':
+                                                            return (
+                                                                <>
+                                                                    <option value="Formation Media Buying">Formation Media Buying</option>
+                                                                    <option value="Formation Google for Business">Formation Google for Business</option>
+                                                                    <option value="Formation En Digital Marketing">Formation En Digital Marketing</option>
+                                                                    <option value="Formation Community Manager">Formation Community Manager</option>
+                                                                    <option value="Formation Web Design UI/UX">Formation Web Design UI/UX</option>
+                                                                    <option value="Formation Web & Ecommerce">Formation Web & Ecommerce</option>
+                                                                    <option value="Plateforme Emailing & SMTP">Plateforme Emailing & SMTP</option>
+                                                                    <option value="Service SEO & Digital Marketing">Service SEO & Digital Marketing</option>
+                                                                    <option value="Création Web & E-Commerce">Création Web & E-Commerce</option>
+                                                                </>
+                                                            )
+                                                        case 'Plateforme Emailing & SMTP':
+                                                            return (
+                                                                <>
+                                                                    <option value="Plateforme Emailing & SMTP">Plateforme Emailing & SMTP</option>
+                                                                    <option value="Formation Google for Business">Formation Google for Business</option>
+                                                                    <option value="Formation En Digital Marketing">Formation En Digital Marketing</option>
+                                                                    <option value="Formation Community Manager">Formation Community Manager</option>
+                                                                    <option value="Formation Web Design UI/UX">Formation Web Design UI/UX</option>
+                                                                    <option value="Formation Web & Ecommerce">Formation Web & Ecommerce</option>
+                                                                    <option value="Formation Media Buying">Formation Media Buying</option>
+                                                                    <option value="Service SEO & Digital Marketing">Service SEO & Digital Marketing</option>
+                                                                    <option value="Création Web & E-Commerce">Création Web & E-Commerce</option>
+                                                                </>
+                                                            )
+                                                        case 'Service SEO & Digital Marketing':
+                                                            return (
+                                                                <>
+                                                                    <option value="Service SEO & Digital Marketing">Service SEO & Digital Marketing</option>
+                                                                    <option value="Formation Google for Business">Formation Google for Business</option>
+                                                                    <option value="Formation En Digital Marketing">Formation En Digital Marketing</option>
+                                                                    <option value="Formation Community Manager">Formation Community Manager</option>
+                                                                    <option value="Formation Web Design UI/UX">Formation Web Design UI/UX</option>
+                                                                    <option value="Formation Web & Ecommerce">Formation Web & Ecommerce</option>
+                                                                    <option value="Formation Media Buying">Formation Media Buying</option>
+                                                                    <option value="Plateforme Emailing & SMTP">Plateforme Emailing & SMTP</option>
+                                                                    <option value="Création Web & E-Commerce">Création Web & E-Commerce</option>
+                                                                </>
+                                                            )
 
-                                                    case 'Création Web & E-Commerce':
-                                                        return (
-                                                            <>
-                                                                <option value="Création Web & E-Commerce">Création Web & E-Commerce</option>
-                                                                <option value="Formation Google for Business">Formation Google for Business</option>
-                                                                <option value="Formation En Digital Marketing">Formation En Digital Marketing</option>
-                                                                <option value="Formation Community Manager">Formation Community Manager</option>
-                                                                <option value="Formation Web Design UI/UX">Formation Web Design UI/UX</option>
-                                                                <option value="Formation Web & Ecommerce">Formation Web & Ecommerce</option>
-                                                                <option value="Formation Media Buying">Formation Media Buying</option>
-                                                                <option value="Plateforme Emailing & SMTP">Plateforme Emailing & SMTP</option>
-                                                                <option value="Service SEO & Digital Marketing">Service SEO & Digital Marketing</option>
-                                                            </>
-                                                        )
-                                                    default:
-                                                        return null
+                                                        case 'Création Web & E-Commerce':
+                                                            return (
+                                                                <>
+                                                                    <option value="Création Web & E-Commerce">Création Web & E-Commerce</option>
+                                                                    <option value="Formation Google for Business">Formation Google for Business</option>
+                                                                    <option value="Formation En Digital Marketing">Formation En Digital Marketing</option>
+                                                                    <option value="Formation Community Manager">Formation Community Manager</option>
+                                                                    <option value="Formation Web Design UI/UX">Formation Web Design UI/UX</option>
+                                                                    <option value="Formation Web & Ecommerce">Formation Web & Ecommerce</option>
+                                                                    <option value="Formation Media Buying">Formation Media Buying</option>
+                                                                    <option value="Plateforme Emailing & SMTP">Plateforme Emailing & SMTP</option>
+                                                                    <option value="Service SEO & Digital Marketing">Service SEO & Digital Marketing</option>
+                                                                </>
+                                                            )
+                                                        default:
+                                                            return null
+                                                    }
                                                 }
+
                                             })()}
                                         </select>
                                     </div>

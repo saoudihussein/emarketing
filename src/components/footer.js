@@ -1,6 +1,8 @@
 import { Link } from "gatsby";
 import React from "react";
 import footerLogo from "../images/logoblanc.webp";
+import emarketingPlace from "../images/emarketing_place.webp";
+import { NewBlogsFooter } from "../pages/notre-blog";
 import "./footer.css";
 
 const FooterComponent = () => {
@@ -15,7 +17,7 @@ const FooterComponent = () => {
                         <p className="mb-2 text-start"><strong>Fax  :</strong> +216 71 31 73 75 </p>
                         <p className="mb-2 text-start"><strong>Email  :</strong> <a href="email:contact@emarketing.tn" className="phone-number">contact@emarketing.tn</a> </p>
                         <p>
-                            <img className="img-fluid" src={footerLogo} alt="emarketing.tn" width="150" height="auto" />
+                            <img loading={"lazy"} className="img-fluid" loading={"lazy"} src={footerLogo} alt="emarketing.tn" width="150" height="auto" />
                         </p>
                     </div>
 
@@ -23,41 +25,7 @@ const FooterComponent = () => {
                         <h5 className="footer-widget-title pt2">Notre Blog</h5>
 
                         <ul className="footer_ul_amrc">
-                            <li>
-                                <div className="row">
-                                    <div className="col-lg-3 col-md-3 col-sm-12">
-                                        <img className="img-fluid" width="73" height="73" src="https://www.emarketing.tn/src/uploads/2017/04/blog-1-150x150.jpg" alt="emarketing.tn" />
-                                    </div>
-                                    <div className="col-9 col-md-9 col-sm-12">
-                                        <p>Elaborer une stratégie de référencement (SEO)</p>
-                                        <p>8 Janv. 2020</p>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div className="row">
-                                    <div className="col-lg-3 col-md-3 col-sm-12">
-                                        <img className="img-fluid" width="73" height="73" src="https://www.emarketing.tn/src/uploads/2017/02/campagne-emailing-150x150.jpg" alt="emarketing.tn" />
-                                    </div>
-                                    <div className="col-9 col-md-9 col-sm-12">
-                                        <p>L’emailing pour votre Business</p>
-                                        <p>8 Janv. 2020</p>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li>
-                                <div className="row">
-                                    <div className="col-lg-3 col-md-3 col-sm-12">
-                                        <img className="img-fluid" width="73" height="73" src="https://www.emarketing.tn/src/uploads/2017/02/formation-150x150.jpg" alt="emarketing.tn" />
-                                    </div>
-                                    <div className="col-9 col-md-9 col-sm-12">
-                                        <p>Le digital marketing et ses 5 mondes</p>
-                                        <p>7 Janv. 2020</p>
-                                    </div>
-                                </div>
-                            </li>
+                            <NewBlogsFooter />
                         </ul>
 
                     </div>
@@ -82,10 +50,9 @@ const FooterComponent = () => {
 
                         <ul className="footer_ul2_amrc">
                             <li>
-                                <iframe title="google" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d798.1048372449831!2d10.153997929197073!3d36.85638007181981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd3387052f5b25%3A0x1f883e9a8ca8d1d8!2sEMARKETING.TN!5e0!3m2!1sfr!2stn!4v1580997243673!5m2!1sfr!2stn"
-                                    frameBorder="0" style={{ border: "0", width: "98%" }}
-                                    className="googleMapsIframe"
-                                ></iframe>
+                                <a href="https://www.google.com/maps/search/emarketing/@36.8563289,10.1544778,19.75z" target="_blank">
+                                    <img loading={"lazy"} src={emarketingPlace} loading={"lazy"} style={{ border: "0", width: "98%", height: "133px" }} class="img-fluid googleMapsIframe" alt="emarketing"></img>
+                                </a>
                             </li>
                         </ul>
 

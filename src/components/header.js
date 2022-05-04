@@ -73,7 +73,7 @@ const HeaderComponent = () => {
             {showState && <nav className="navbar navbar-expand-lg fixed-top navbar-light bg-light ">
                 <div className="container">
                     <Link className="nav-link" id="navbarDropdown" to="/">
-                        <img src={logo} alt="Logo image" className="img-fluid" width="161" height="43" />
+                        <img loading={"lazy"} src={logo} alt="Logo image" className="img-fluid" width="161" height="43" />
                     </Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="burger"><GiHamburgerMenu /></span>
@@ -204,7 +204,7 @@ const HeaderComponent = () => {
             </nav >}
 
             {showStateRocket && <div className="fixed-bottom ">
-                <img src={rocket} onClick={scrollToTop} className="float-end btn scroll-to-top" alt="Scroll to top" />
+                <img loading={"lazy"} src={rocket} onClick={scrollToTop} className="float-end btn scroll-to-top" alt="Scroll to top" />
             </div>}
 
         </>

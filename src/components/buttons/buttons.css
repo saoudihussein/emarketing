@@ -7,14 +7,12 @@
     font-size: 17px;
     min-width: 161px;
     min-width: 161px;
-    
 }
 .btn-downoad:hover {
     box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
     background: #001e48;
 }
 
-
-.bd-example>.btn, .bd-example>.btn-group {
+.bd-example > .btn {
     margin: 0.25rem 0.125rem;
 }

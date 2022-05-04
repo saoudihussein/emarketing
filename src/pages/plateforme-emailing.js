@@ -36,7 +36,7 @@ const PresentationPage = () => {
                             <div className="row">
                                 <div className="col">
                                     <div className="card card-sol card-email">
-                                        <img src={icon1} className="img-fluid mx-auto d-block" alt="Un ciblage maîtrisé" />
+                                        <img loading={"lazy"} src={icon1} className="img-fluid mx-auto d-block" alt="Un ciblage maîtrisé" />
                                         <div className="card-body">
                                             <Link className="text-decoration-none" to="/services/formation-google-for-business/">
                                                 <h5 className="card-title-email pb-3 pt-3">
@@ -53,7 +53,7 @@ const PresentationPage = () => {
 
                                 <div className="col">
                                     <div className="card card-sol card-email">
-                                        <img src={icon2} className="img-fluid mx-auto d-block" alt="Design Graphique" />
+                                        <img loading={"lazy"} src={icon2} className="img-fluid mx-auto d-block" alt="Design Graphique" />
                                         <div className="card-body">
                                             <Link className="text-decoration-none" to="/services/formation-google-for-business/">
                                                 <h5 className="card-title-email pb-3 pt-3">
@@ -69,7 +69,7 @@ const PresentationPage = () => {
 
                                 <div className="col">
                                     <div className="card card-sol h-100">
-                                        <img src={icon3} className="img-fluid mx-auto d-block" alt="Facilité et Rapidité" />
+                                        <img loading={"lazy"} src={icon3} className="img-fluid mx-auto d-block" alt="Facilité et Rapidité" />
                                         <div className="card-body">
                                             <h5 className="card-title-email pb-3 pt-3">
                                                 Facilité et Rapidité
@@ -83,7 +83,7 @@ const PresentationPage = () => {
                                 <div className="col">
                                     <div className="card card-sol card-email">
                                         <Link to="/services/formation-google-for-business/">
-                                            <img src={icon4} className="img-fluid mx-auto d-block" alt="Statistiques et Tracking" />
+                                            <img loading={"lazy"} src={icon4} className="img-fluid mx-auto d-block" alt="Statistiques et Tracking" />
                                         </Link>
                                         <div className="card-body">
                                             <h5 className="card-title-email pb-3 pt-3">
@@ -117,7 +117,7 @@ const PresentationPage = () => {
                                         </div>
                                     </div>
                                     <div className="col-2">
-                                        <img src={icon5} className="img-fluid mx-auto d-block" alt="Icon" />
+                                        <img loading={"lazy"} src={icon5} className="img-fluid mx-auto d-block" alt="Icon" />
                                     </div>
                                 </div>
 
@@ -135,7 +135,7 @@ const PresentationPage = () => {
                                         </div>
                                     </div>
                                     <div className="col-2">
-                                        <img src={icon5} className="img-fluid mx-auto d-block" alt="Icon" />
+                                        <img loading={"lazy"} src={icon5} className="img-fluid mx-auto d-block" alt="Icon" />
                                     </div>
                                 </div>
 
@@ -153,19 +153,19 @@ const PresentationPage = () => {
                                         </div>
                                     </div>
                                     <div className="col-2">
-                                        <img src={icon5} className="img-fluid mx-auto d-block" alt="Icon" />
+                                        <img loading={"lazy"} src={icon5} className="img-fluid mx-auto d-block" alt="Icon" />
                                     </div>
                                 </div>
                             </div>
                             <div className=" col-md-12 col-lg-4">
                                 <div className="text-center">
-                                    <img src={element2} className="img-fluid" alt="Image icon" />
+                                    <img loading={"lazy"} src={element2} className="img-fluid" alt="Image icon" />
                                 </div>
                             </div>
                             <div className=" col-md-12 col-lg-4 text-start">
                                 <div className="row emailing-right-style">
                                     <div className="col-2">
-                                        <img src={icon5} className="img-fluid mx-auto d-block" alt="Icon" />
+                                        <img loading={"lazy"} src={icon5} className="img-fluid mx-auto d-block" alt="Icon" />
                                     </div>
                                     <div className="col-10">
                                         <span className="iconbox-title">
@@ -183,7 +183,7 @@ const PresentationPage = () => {
 
                                 <div className="row mt-5">
                                     <div className="col-2">
-                                        <img src={icon5} className="img-fluid mx-auto d-block" alt="Icon" />
+                                        <img loading={"lazy"} src={icon5} className="img-fluid mx-auto d-block" alt="Icon" />
                                     </div>
                                     <div className="col-10">
                                         <span className="iconbox-title">
@@ -201,7 +201,7 @@ const PresentationPage = () => {
 
                                 <div className="row mt-5 emailing-right-style">
                                     <div className="col-2">
-                                        <img src={icon5} className="img-fluid mx-auto d-block" alt="Icon" />
+                                        <img loading={"lazy"} src={icon5} className="img-fluid mx-auto d-block" alt="Icon" />
                                     </div>
                                     <div className="col-10">
                                         <span className="iconbox-title">

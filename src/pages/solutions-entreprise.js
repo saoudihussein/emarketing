@@ -56,7 +56,7 @@ const PresentationPage = () => {
                         </div>
 
                         <div className="col-lg-3 mt-3 col-sm-12">
-                            <img src={solutionsEntreprises} className="img-fluid" alt="Solutions Entreprises" />
+                            <img loading={"lazy"} src={solutionsEntreprises} className="img-fluid" alt="Solutions Entreprises" />
                         </div>
                     </div>
                 </div>
@@ -68,7 +68,7 @@ const PresentationPage = () => {
                             <div className="row pt-5">
                                 <div className="col">
                                     <div className="card card-sol">
-                                        <img src={icon1} className="img-fluid mx-auto d-block" alt="Formation Google for Business" />
+                                        <img loading={"lazy"} src={icon1} className="img-fluid mx-auto d-block" alt="Formation Google for Business" />
                                         <div className="card-body">
                                             <h5 className="card-title-sol pb-3 pt-3">
                                                 Plateforme Emailing
@@ -82,7 +82,7 @@ const PresentationPage = () => {
 
                                 <div className="col">
                                     <div className="card card-sol">
-                                        <img src={icon2} className="img-fluid mx-auto d-block" alt="Formation Google for Business" />
+                                        <img loading={"lazy"} src={icon2} className="img-fluid mx-auto d-block" alt="Formation Google for Business" />
                                         <div className="card-body">
                                             <h5 className="card-title-sol pb-3 pt-3">
                                                 Site Web & E-Commerce
@@ -97,7 +97,7 @@ const PresentationPage = () => {
                                 <div className="col">
                                     <div className="card card-sol">
                                         <Link to="/services/formation-google-for-business/">
-                                            <img src={icon3} className="img-fluid mx-auto d-block" alt="Formation Google for Business" />
+                                            <img loading={"lazy"} src={icon3} className="img-fluid mx-auto d-block" alt="Formation Google for Business" />
                                         </Link>
                                         <div className="card-body">
                                             <h5 className="card-title-sol pb-3 pt-3">

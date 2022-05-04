@@ -53,7 +53,7 @@ const PresentationPage = () => {
                 <div className="container mt-5">
                     <div className="row">
                         <div className="col-sm-12 col-md-6 mt-5">
-                            <img src={presImage} className="img-fluid" alt="EMARKETING.TN BY IMSC" />
+                            <img loading={"lazy"} src={presImage} className="img-fluid" alt="EMARKETING.TN BY IMSC" />
                         </div>
 
                         <div className="col-sm-12 col-md-6 mt-5 pl-5">
@@ -149,7 +149,7 @@ const PresentationPage = () => {
                             </div>
                             <div className=" col-md-12 col-lg-4">
                                 <div className="text-center">
-                                    <img src={element2} className="img-fluid" alt="emarketing.tn" />
+                                    <img loading={"lazy"} src={element2} className="img-fluid" alt="emarketing.tn" />
                                 </div>
                             </div>
                             <div className=" col-md-12 col-lg-4 text-start">
@@ -228,7 +228,7 @@ const PresentationPage = () => {
                         <div className="col-sm-12 col-md-6 col-lg-4 mt-lg-1">
                             <div className="card h-100">
                                 <Link to="/services/formation-digital-marketing/">
-                                    <img src={digitalMarketing} className="img-fluid mx-auto d-block" alt="Formation Digital Marketing" />
+                                    <img loading={"lazy"} src={digitalMarketing} className="img-fluid mx-auto d-block" alt="Formation Digital Marketing" />
                                 </Link>
 
                                 <div className="card-body">
@@ -249,7 +249,7 @@ const PresentationPage = () => {
                         <div className="col-sm-12 col-md-6 col-lg-4 mt-lg-1">
                             <div className="card h-100">
                                 <Link to="/services/formation-google-for-business/">
-                                    <img src={formForGoogleBusiness} className="img-fluid mx-auto d-block" alt="Formation Google for Business" />
+                                    <img loading={"lazy"} src={formForGoogleBusiness} className="img-fluid mx-auto d-block" alt="Formation Google for Business" />
                                 </Link>
                                 <div className="card-body">
                                     <Link className="text-decoration-none" to="/services/formation-google-for-business/">
@@ -271,7 +271,7 @@ const PresentationPage = () => {
                         <div className="col-sm-12 col-md-6 col-lg-4 mt-md-5 mt-sm-5 mt-lg-1">
                             <div className="card h-100">
                                 <Link to="/services/formation-community-manager/">
-                                    <img src={communityManager} className="img-fluid mx-auto d-block" alt="Formation Community Manager" />
+                                    <img loading={"lazy"} src={communityManager} className="img-fluid mx-auto d-block" alt="Formation Community Manager" />
                                 </Link>
                                 <div className="card-body">
                                     <Link className="text-decoration-none" to="/services/formation-community-manager/">
@@ -292,7 +292,7 @@ const PresentationPage = () => {
                         <div className="col-sm-12 col-md-6 col-lg-4 mt-5">
                             <div className="card h-100">
                                 <Link to="/services/formation-web-design/">
-                                    <img src={formationUIUX} className="img-fluid mx-auto d-block" alt="Formation Web Design UI/UX" />
+                                    <img loading={"lazy"} src={formationUIUX} className="img-fluid mx-auto d-block" alt="Formation Web Design UI/UX" />
                                 </Link>
                                 <div className="card-body">
                                     <Link className="text-decoration-none" to="/services/formation-web-design/">
@@ -309,7 +309,7 @@ const PresentationPage = () => {
                         <div className="col-sm-12 col-md-6 col-lg-4 mt-5">
                             <div className="card h-100">
                                 <Link to="/services/formation-web-ecommerce/">
-                                    <img src={formationWebEcomerce} className="img-fluid mx-auto d-block" alt="Formation Web & Ecommerce" />
+                                    <img loading={"lazy"} src={formationWebEcomerce} className="img-fluid mx-auto d-block" alt="Formation Web & Ecommerce" />
                                 </Link>
                                 <div className="card-body">
                                     <Link className="text-decoration-none" to="/services/formation-web-ecommerce/">
@@ -327,7 +327,7 @@ const PresentationPage = () => {
                         <div className="col-sm-12 col-md-6 col-lg-4 mt-5">
                             <div className="card h-100">
                                 <Link to="/services/formation-media-buying/">
-                                    <img src={formationMediaBuying} className="img-fluid mx-auto d-block" alt="Formation Media Buying" />
+                                    <img loading={"lazy"} src={formationMediaBuying} className="img-fluid mx-auto d-block" alt="Formation Media Buying" />
                                 </Link>
                                 <div className="card-body">
                                     <Link className="text-decoration-none" to="/services/formation-media-buying/">
